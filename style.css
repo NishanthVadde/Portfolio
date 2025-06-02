@@ -390,3 +390,57 @@ article .icon {
 .experience-details-container{
   margin-top: 1rem;
 }
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-info-container a {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+}
+
+.contact-info-container a:hover {
+  color: rgb(53, 53, 53);
+  text-decoration: underline;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
