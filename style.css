@@ -286,7 +286,17 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.experience-details-container {
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -298,4 +308,30 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+}
+
+/* Experience and Tech stack Section */
+
+#section{
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  font-style: bold;
+  font-weight: 100%;
+}
+
+.exp-icon{
+  cursor: pointer;
+  height: 20vh;
+}
+
+.skill-container-1,.skill-container-2{
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  justify-content: center;
 }
